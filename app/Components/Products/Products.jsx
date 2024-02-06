@@ -11,17 +11,59 @@ const CardDetailes = [
     title: 'Bokku Bread',
     price: 100,
   },
+  {
+    id: 1,
+    image: bread,
+    title: 'Bokku Bread',
+    price: 100,
+  },
+  {
+    id: 1,
+    image: bread,
+    title: 'Bokku Bread',
+    price: 100,
+  },
+  {
+    id: 1,
+    image: bread,
+    title: 'Bokku Bread',
+    price: 100,
+  },
+  {
+    id: 1,
+    image: bread,
+    title: 'Bokku Bread',
+    price: 100,
+  },
+  {
+    id: 1,
+    image: bread,
+    title: 'Bokku Bread',
+    price: 100,
+  },
+  {
+    id: 1,
+    image: bread,
+    title: 'Bokku Bread',
+    price: 100,
+  },
+  {
+    id: 1,
+    image: bread,
+    title: 'Bokku Bread',
+    price: 100,
+  },
 ];
 
 const Products = () => {
   return (
-    <div className='p-10 w-full'>
+    <div className='p-10 w-full my-10'>
       <h1 className='text-[#000] font-semibold text-2xl'>Products</h1>
-      <div className='flex flex-row'>
+      <div className='flex flex-row gap-8'>
         <div>
           <Image src={image} width={300} height={700} />
         </div>
-        <div className='grid grid-cols-4'>
+        <div className='grid grid-cols-4 grid-rows-2 gap-10'>
           {CardDetailes.map((products) => {
             return (
               <ProductCard
@@ -34,6 +76,7 @@ const Products = () => {
           })}
         </div>
       </div>
+      <div></div>
     </div>
   );
 };
