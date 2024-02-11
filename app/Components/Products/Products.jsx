@@ -76,7 +76,6 @@ const Products = () => {
           })}
         </div>
       </div>
-      <div></div>
     </div>
   );
 };
